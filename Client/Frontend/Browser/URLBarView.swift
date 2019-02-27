@@ -787,6 +787,7 @@ extension ToolbarTextField: Themeable {
         textColor = UIColor.theme.textField.textAndTint
         clearButtonTintColor = textColor
         tintColor = AutocompleteTextField.textSelectionColor.textFieldMode
+        keyboardAppearance = UIColor.theme.textField.keyboardAppearance
     }
 
     // ToolbarTextField is created on-demand, so the textSelectionColor is a static prop for use when created

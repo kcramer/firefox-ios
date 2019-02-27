@@ -141,6 +141,7 @@ class TextFieldColor {
     var backgroundInOverlay : UIColor { return .white }
     var textAndTint: UIColor { return defaultTextAndTint }
     var separator: UIColor { return .white }
+    var keyboardAppearance: UIKeyboardAppearance { return .default }
 }
 
 class HomePanelColor {

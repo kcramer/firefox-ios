@@ -75,6 +75,7 @@ fileprivate class DarkTextFieldColor: TextFieldColor {
 
     override var textAndTint: UIColor { return defaultTextAndTint }
     override var separator: UIColor { return super.separator.withAlphaComponent(0.3) }
+    override var keyboardAppearance: UIKeyboardAppearance { return .dark }
 }
 
 fileprivate class DarkHomePanelColor: HomePanelColor {
